@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #6c5ce7;
+  --secondary-color: #00cec9;
+  --background-color: #f0f3f7;
+  --text-color: #2d3436;
+  --card-background: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.error-message {
+  color: #d63031;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #fab1a0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
